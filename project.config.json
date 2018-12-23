@@ -1,0 +1,73 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false
+	},
+	"appid": "wxe728420919809fae",
+	"projectname": "q",
+	"libVersion": "2.4.2",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": 0,
+					"name": "addtask",
+					"pathName": "pages/index/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mytask",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "registered",
+					"pathName": "pages/registered/registered",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mine",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "staff",
+					"pathName": "pages/staff/staff"
+				}
+			]
+		}
+	}
+}
