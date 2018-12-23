@@ -1,0 +1,7 @@
+/* pages/b/b.wxss */
+.container{
+ background-color: #51e1e6;
+ height: 44vh;
+ text-align: center;
+
+}

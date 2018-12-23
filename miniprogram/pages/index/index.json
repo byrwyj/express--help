@@ -1,0 +1,4 @@
+{"usingComponents": {
+    "van-toast": "../../vant/toast/index",
+    "van-field": "../../vant/field/index"
+  }}

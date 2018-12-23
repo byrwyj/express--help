@@ -1,0 +1,44 @@
+<view class='theTop'>
+  <view class="userinfo-avatar">
+    <open-data type="userAvatarUrl"></open-data>
+    
+  </view>
+</view>
+
+<view class='theName'>
+  <open-data type="userNickName"></open-data>
+</view>
+
+<van-tabs bind:click="onClick">
+  <van-tab title="查看当前任务" >
+    <block wx:for="{{record}}" wx:key="readtask" >
+      <van-panel title="第{{index+1}}项任务" desc="发布时间：{{item.time}}" status="{{item.done}}" use-footer-slot>
+      
+        <view> 姓名： </view>
+        <view> {{item.name}} </view>
+        <view> 电话号码： </view>
+        <view> {{item.phonenumber}} </view>
+        <view> 送货地址: </view>
+        <view> {{item.address}} </view>
+        <view> 短信内容: </view>
+        <view> {{item.text}} </view>
+        <button bindtap='confirm' id='{{item._id}}'class='getCodeViewOne'>确认收货</button>
+      </van-panel>
+    </block>
+  </van-tab>
+  <van-tab title="查看所有任务" >
+    <block wx:for="{{record}}" wx:key="readalltask" >
+      <van-panel title="第{{index+1}}项任务" desc="发布时间：{{item.time}}" status="{{item.done}}" use-footer-slot>
+     
+        <view> 姓名： </view>
+        <view> {{item.name}} </view>
+        <view> 电话号码： </view>
+        <view> {{item.phonenumber}} </view>
+        <view> 送货地址: </view>
+        <view> {{item.address}} </view>
+        <view> 短信内容: </view>
+        <view> {{item.text}} </view>
+      </van-panel>
+    </block>
+  </van-tab>
+</van-tabs>

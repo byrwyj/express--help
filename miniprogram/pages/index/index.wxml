@@ -1,0 +1,52 @@
+<form bindsubmit="addtask">
+<van-cell-group>
+  <van-field
+  name =name
+    value="{{ name }}"
+    required
+    clearable
+    label="姓名"
+    placeholder="如 张三"
+  />
+   <van-field
+  name =sex
+    value="{{ sex }}"
+    required
+    clearable
+    label="性别"
+    placeholder="请填写性别"
+  />
+  <van-field
+   name =phonenumber
+    value="{{ phonenumber }}"
+    clearable
+    type="number"
+    label="手机号"
+    placeholder="请输入您的手机号"
+    maxlength="11"
+    required
+  />
+   <van-field
+    name =address
+ value="{{ address }}"
+    clearable
+    label="收货地址"
+    placeholder="如燕北园C7-16"
+    required
+  />
+   <van-field
+   name =text
+    value="{{ text }}"
+    clearable
+    label="取货凭证"
+    placeholder="请将短信复制在此处"
+    required
+ />
+</van-cell-group>
+<button formType="submit" class='getCodeView firstListLineStyle'>发布任务</button>
+</form>
+
+<view class="container">
+  <text>1.手机号一栏要填完整的号码，不要只填尾号。</text>
+  <image src="../../images/picture2.jpg"></image>
+</view>

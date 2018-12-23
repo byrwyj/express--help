@@ -1,0 +1,38 @@
+.theTop{
+  background-color:  #4ce8f3;
+   margin-top: 0;
+}
+
+.theName{
+  background-color:  #4ce8f3;
+  margin-top: 0;
+}
+
+.userinfo-avatar {
+  overflow:hidden;
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 0rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  border: 2px solid rgb(200, 220, 221);
+  text-align: center;
+
+}
+ 
+.userinfo text {
+  /* color: #fff; */
+  font-size: 14px;
+  background-color: #c0c0c0;
+  border-radius:40%;
+}
+
+.getCodeViewOne
+{
+   width: 60%;  
+  height: 80rpx; 
+  line-height: 80rpx; 
+  background:  rgb(13, 199, 245); 
+  color:#ffffff; 
+}

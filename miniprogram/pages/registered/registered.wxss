@@ -1,0 +1,11 @@
+.getCodeView { 
+  width: 60%;  
+  height: 80rpx; 
+  line-height: 80rpx; 
+  background:  rgb(13, 199, 245); 
+  color:#ffffff; 
+  }
+
+.bottomText{
+  background-color: #47f3e5
+}

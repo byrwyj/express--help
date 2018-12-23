@@ -1,0 +1,29 @@
+<form bindsubmit="login">
+<van-cell-group>
+ <van-field
+   name =schoolnum
+    value="{{ schoolnum }}"
+    clearable
+    type="number"
+    label="学号"
+    placeholder="请输入学号"
+    required
+  />
+   <van-field
+    name =password
+ value="{{ password }}"
+    label="密码"
+    placeholder="请输入密码"
+    required
+  />
+</van-cell-group>
+<button formType="submit" open-type="getUserInfo" class='getCodeViewFirst'
+>登陆</button>
+</form>
+<button bindtap="registered"  open-type="getUserInfo"class='getCodeViewSecond'>新用户注册</button>
+<button bindtap="staff"  open-type="getUserInfo">我是员工</button>
+<button bindtap="logic"  >流程图</button>
+
+<view class='container'>
+  <image  src="../../images/picture1.png"></image>
+</view>

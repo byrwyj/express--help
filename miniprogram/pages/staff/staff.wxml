@@ -1,0 +1,39 @@
+
+
+<van-tabs bind:click="onClick">
+  <van-tab title="查看未完成任务" >
+    <block wx:for="{{record}}" wx:key="staff">
+      <van-panel title="第{{index+1}}项任务" desc="发布时间：{{item.time}}" status="{{item.done}}" use-footer-slot>
+      
+        <view> 姓名： </view>
+        <view> {{item.name}} </view>
+          <view> 性别： </view>
+        <view> {{item.sex}} </view>
+        <view> 电话号码： </view>
+        <view> {{item.phonenumber}} </view>
+        <view> 送货地址: </view>
+        <view> {{item.address}} </view>
+        <view> 短信内容: </view>
+        <view> {{item.text}} </view>
+       
+      </van-panel>
+    </block>
+  </van-tab>
+  <van-tab title="查看已完成的任务" >
+    <block wx:for="{{record}}" wx:key="sstaff">
+      <van-panel title="第{{index+1}}项任务" desc="发布时间：{{item.time}}" status="{{item.done}}" use-footer-slot>
+     
+        <view> 姓名： </view>
+        <view> {{item.name}} </view>
+          <view> 性别： </view>
+        <view> {{item.sex}} </view>
+        <view> 电话号码： </view>
+        <view> {{item.phonenumber}} </view>
+        <view> 送货地址: </view>
+        <view> {{item.address}} </view>
+        <view> 短信内容: </view>
+        <view> {{item.text}} </view>
+      </van-panel>
+    </block>
+  </van-tab>
+</van-tabs>

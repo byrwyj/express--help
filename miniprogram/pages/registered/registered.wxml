@@ -1,0 +1,53 @@
+<form bindsubmit="registered">
+<van-cell-group>
+<van-field
+   name =schoolnum
+    value="{{ schoolnum }}"
+    clearable
+    type="number"
+    label="学号"
+    placeholder="请输入学号"
+    required
+  />  <van-field
+    name =password
+   value="{{ password }}"
+    clearable
+    type="password"
+    label="密码"
+    placeholder="请输入密码"
+   
+    required
+  />
+  <van-field
+  name =truename
+    value="{{ truename }}"
+    required
+    clearable
+    label="姓名"
+    placeholder="请输入姓名"
+  />
+   <van-field
+    name =roomnum
+ value="{{ roomnum }}"
+    clearable
+    label="宿舍号"
+    placeholder="请输入宿舍号"
+    required
+  />
+  <van-field
+    name =phonenum
+   value="{{ phonenum }}"
+    clearable
+    type="number"
+    label="手机号"
+    placeholder="请输入手机号"
+    border="{{ false }}"
+    required
+  />
+ 
+</van-cell-group>
+<button formType="submit" class='getCodeView firstListLineStyle'>注册</button>
+</form>
+<view class='bottomText'>
+  <text >请用户认真读完本条协议：\n1.以上个人信息必须确保真实，若因为信息错误导致的失误，我们不负责任。\n2.   用户每次发布任务都需收取5元的费用。(目前实施“线下交易，即员工将货送到用户手中后当面支付费用”)\n 3.请不要    在此平台发布任务超过100元的快递，若坚持发布，且发生丢失或破损或其他现象后，我们不负责任。\n4.一个微信号只   能申请一个账号，请牢记您申请时的学号和密码。若忘记密码，请加QQ280585802请求找回密码</text>
+</view>
